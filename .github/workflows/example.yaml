@@ -1,0 +1,6 @@
+name: my test
+on: push
+
+jobs:
+  my-first-job:
+     runs-on: ubuntu-latest
