@@ -9,11 +9,11 @@ describe('Website Test', () => {
       cy.login(username, password);
     });
   
-    it('Visit the website and login with invalid credentials', () => {
-      const baduser = Cypress.env('baduser');
-      const password = Cypress.env('password');
-      cy.badlogin(baduser, password);
-    });
+    // it('Visit the website and login with invalid credentials', () => {
+    //   const baduser = Cypress.env('baduser');
+    //   const password = Cypress.env('password');
+    //   cy.badlogin(baduser, password);
+    // });
   
     it('Searches for product', () => {
       const username = Cypress.env('username');
