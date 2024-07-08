@@ -1,7 +1,0 @@
-name: my test
-on: push
-
-jobs:
-  my-first-job: ubuntu-latest
-  steps:
-    - run: echo "Hello World"
