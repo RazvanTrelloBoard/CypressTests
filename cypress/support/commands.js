@@ -37,7 +37,7 @@ Cypress.Commands.add('login', (username, password) => {
       cy.get(selectors.username).should('be.visible').type(baduser);
       cy.get(selectors.password).should('be.visible').type(password);
       cy.get(selectors.loginButton).should('be.visible').click();
-      cy.wait(1000);
+      cy.wait(2000);
       cy.get(selectors.loginButton).should('be.visible');
     });
   });
