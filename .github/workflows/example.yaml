@@ -16,3 +16,6 @@ jobs:
       - name: Install Dependencies
         run: npm ci
         working-directory: cypress
+      - name: Run test
+        run: npx cypress run
+        working-directory: cypress
